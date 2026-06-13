@@ -1,0 +1,42 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {},
+    ".NETCoreApp,Version=v10.0/win-x64": {
+      "Antivirus-C#/1.0.0": {
+        "dependencies": {
+          "InTheHand.Net.Bluetooth": "4.2.4"
+        },
+        "runtime": {
+          "Antivirus-C#.dll": {}
+        }
+      },
+      "InTheHand.Net.Bluetooth/4.2.4": {
+        "runtime": {
+          "lib/net9.0-windows7.0/InTheHand.Net.Bluetooth.dll": {
+            "assemblyVersion": "4.2.4.0",
+            "fileVersion": "4.2.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Antivirus-C#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InTheHand.Net.Bluetooth/4.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xoEylG7EfNxDEvy+I3c3XYK5ZFbExAoVQCuJYY5BdyClGsHEn1o+NMZCjh2q+yqXSabTdJbeNYAkny6Fu0XQiQ==",
+      "path": "inthehand.net.bluetooth/4.2.4",
+      "hashPath": "inthehand.net.bluetooth.4.2.4.nupkg.sha512"
+    }
+  }
+}
